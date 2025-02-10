@@ -1,6 +1,6 @@
 services:
 - type: pserv
-  name: mysql
+  name: [gcp-frankfurt] mysql
   plan: standard
   env: docker
   autoDeploy: false
